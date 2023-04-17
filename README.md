@@ -1,16 +1,13 @@
-# bank_ui
+# Bank UI
 
-A new Flutter project.
+**I find the design to be particularly appealing, especially with the unique notch buttons and vibrant color scheme. They create a sense of visual interest that caught my attention and left a lasting impression**
 
-## Getting Started
+### Packages used:
+----
+- [google fonts](https://pub.dev/packages/google_fonts)
+- [swipe to](https://pub.dev/packages/swipe_to)
+- [dotted border](https://pub.dev/packages/dotted_border)
+- [sync fusion flutter](https://pub.dev/packages/syncfusion_flutter_charts)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Screen Grabs:
+---
