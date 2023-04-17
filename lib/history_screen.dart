@@ -16,21 +16,23 @@ class HistoryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: appBar("History", context),
-      backgroundColor: CustomColors.lightGreen,
-      body: SingleChildScrollView(
-        child: Container(
-          margin: const EdgeInsets.symmetric(horizontal: 20),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              _ExpenseNotch(),
-              _DateSelection(),
-              _Chart(),
-              _LatestPayment(),
-              const SizedBox(height: 30),
-            ],
+    return SafeArea(
+      child: Scaffold(
+        appBar: appBar("History", context),
+        backgroundColor: CustomColors.lightGreen,
+        body: SingleChildScrollView(
+          child: Container(
+            margin: const EdgeInsets.symmetric(horizontal: 20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                _ExpenseNotch(),
+                _DateSelection(),
+                _Chart(),
+                _LatestPayment(),
+                const SizedBox(height: 30),
+              ],
+            ),
           ),
         ),
       ),
